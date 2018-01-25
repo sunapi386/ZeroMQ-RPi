@@ -35,6 +35,14 @@ sudo ldconfig
 
 # Optional bindings
 
+## C++ bindings `zmq.hpp`
+Use `#include <zmq.hpp>` to run as C++ program.
+
+```sh
+cd /usr/include/
+sudo wget https://raw.githubusercontent.com/zeromq/cppzmq/master/zmq.hpp
+```
+
 ## Python bindings: `pyzmq`
 
 The [pyzmq package](https://github.com/zeromq/pyzmq) requires `python-dev` to compile.
